@@ -31,7 +31,10 @@ public class Order {
     }
 
     @PrePersist
-    public void onPrePersist() {}
+    public void onPrePersist() {
+
+        //some implementation
+    }
 
     public static OrderRepository repository() {
         OrderRepository orderRepository = MonolithApplication.applicationContext.getBean(
