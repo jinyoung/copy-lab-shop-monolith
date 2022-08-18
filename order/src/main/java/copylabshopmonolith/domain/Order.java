@@ -31,7 +31,10 @@ public class Order {
     }
 
     @PrePersist
-    public void onPrePersist() {}
+    public void onPrePersist() {
+
+        //////
+    }
 
     public static OrderRepository repository() {
         OrderRepository orderRepository = OrderApplication.applicationContext.getBean(
